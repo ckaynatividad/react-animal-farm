@@ -3,6 +3,6 @@ import App from './App'
 
 test('renders header', () => {
   render(<App />)
-  const linkElement = screen.getByText(/Alchemy Animal Farm/i)
+  const linkElement = screen.getByText(/zodiac/i)
   expect(linkElement).toBeInTheDocument()
 })

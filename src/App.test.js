@@ -3,6 +3,6 @@ import App from './App'
 
 test('renders header', () => {
   render(<App />)
-  const linkElement = screen.getByText(/ /)
+  const linkElement = screen.getByText(/ animal farm /i)
   expect(linkElement).toBeInTheDocument()
 })

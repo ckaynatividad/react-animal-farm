@@ -3,6 +3,6 @@ import App from './App'
 
 test('renders header', () => {
   render(<App />)
-  const linkElement = screen.getByText(/zodiac/i)
+  const linkElement = screen.getByText(/ /)
   expect(linkElement).toBeInTheDocument()
 })
